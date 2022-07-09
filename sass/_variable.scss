@@ -1,0 +1,35 @@
+$color: #3D1101;
+$white: white;
+$orange: #F56C23;
+$green: #00CC99;
+$blue: blue;
+$chef-white: #EFE9E7;
+$background-color: #efe9e7;
+$background-color-chef: #3D1101;
+$background-color-map: rgba(250,250,250,0.7);
+$fz-48: 48px;
+$fz-36: 36px;
+$fz-24: 24px;
+$fz-20: 20px;
+$fz-18: 18px;
+$fz-16: 16px;
+$fz-14: 14px;
+$fz-12: 12px;
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-family: "Noto Sans TC", sans-serif , MicrosoftJhengHeiRegular;
+    background-color: $background-color;
+}

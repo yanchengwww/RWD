@@ -1,0 +1,35 @@
+@mixin desktop-1024{
+	@media (max-width:1024px){
+		@content
+	}
+}
+@mixin desktop-1023{
+	@media (max-width:1023px){
+		@content
+	}
+}
+@mixin pad-768{
+	@media (max-width:768px){
+		@content
+	}
+}
+@mixin pad-767{
+	@media (max-width:767px){
+		@content
+	}
+}
+@mixin iphone{
+	@media (max-width:568px){
+		@content
+	}
+}
+@mixin iphone6{
+	@media (max-width:375px){
+		@content
+	}
+}
+@mixin iphone5{
+	@media (max-width:320px){
+		@content
+	}
+}

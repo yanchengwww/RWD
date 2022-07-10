@@ -237,7 +237,8 @@ body {
 }
 .footer-img .footer-media {
   margin-top: 22px;
-  text-align: right;
+  display: flex;
+  justify-content: end;
 }
 .footer-img .footer-media a {
   margin-left: 12px;
@@ -279,6 +280,7 @@ body {
 
   .footer-img {
     margin-top: 30px;
+    margin-bottom: 30px;
     float: right;
   }
 }
@@ -627,6 +629,9 @@ body {
   background: #3D1101;
   border: 2px solid #3D1101;
   cursor: pointer;
+}
+.product-top .product-search button:hover {
+  font-size: 21px;
 }
 .product-top .shopping-cart .go-shopping {
   color: #3D1101;

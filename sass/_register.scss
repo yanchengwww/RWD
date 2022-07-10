@@ -104,7 +104,7 @@
         opacity: 0.8;
     }
 }
-@media (max-width:768px){
+@include pad-768(){
     .register{
         width: 300px;
     }

@@ -39,7 +39,7 @@
     font-size: $fz-24;
 
 }
-@media (max-width:767px){
+@include pad-767(){
     .header{
         .navbar{
             position: relative;
@@ -103,7 +103,7 @@
     }
     
 }
-@media (max-width:375px){
+@include iphone6(){
     .banner{
         background-image: url(../image/header_mobile.png);
         .slogan{
